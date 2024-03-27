@@ -17,6 +17,23 @@
         <div class="main_page_title">
             <h1>Shashki</h1>
         </div>
+        <div class="main_page_block_login_register">
+            <form action="register.php" method="post">
+                <div class="main_page_login_block">
+                    <p>Login <input type="text" name = "login"></p>
+                    <p>Password <input type="text" name = "password"></p>
+                    <p>Repeat password <input type="text" name="repeatpassword"></p>
+                    <button type="submit">Registration </button>
+                </div>
+            </form>
+            <form action="login.php" method="post">
+                <div class="main_page_register_block">
+                    <p>Login <input type="text" name="login"></p>
+                    <p>Password <input type="text" name="password"></p>
+                    <a href="play_page.php"><button type="submit">Login </button></a>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
