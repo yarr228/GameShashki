@@ -1,0 +1,26 @@
+body {
+
+    font-family: "Comfortaa", sans-serif;
+    background: linear-gradient(90deg, #91a5ff, #fd7eaf, #b5ebff, #ff88eb);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+  
+    font-size: 50px;
+}
