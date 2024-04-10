@@ -59,9 +59,14 @@ a:hover {
 .header_container div {
 
   padding: 0 10px;
-  width: 33.333%;
+  width: 50%;
 }
 
+input {
+
+  padding: 5px 10px;
+  border-radius: 10px;
+}
 .main_play_contaner {
 
   color: black;

@@ -18,6 +18,7 @@
             <tr>
                 <th>Name</th>
                 <th>Score</th>
+                <th>Wins</th>
             </tr>
             <tr>
                 <th>   
@@ -47,6 +48,19 @@
 
                     ?>
                 </th>
+                <th>
+                    <?php
+    
+                    $sql = "SELECT * FROM `users` ORDER BY wins DESC";
+                    $result = $conn ->query($sql);  
+    
+                                while ($r = mysqli_fetch_assoc($result))
+                                {
+                                    echo "{$r['wins']}<br/>";
+                                }
+    
+                        ?>
+                    </th>
             </tr>
         </table>
     </div>

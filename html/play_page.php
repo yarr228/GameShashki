@@ -15,9 +15,6 @@
 <body>
     <header>
         <div class="header_container">
-            <div class="results_header_container">
-                <a href="results_page.php"><p class="results_header_name">My results</p></a>
-            </div>
             <div class="toplist_header_container">
                 <a href="toplist_page.php"><p class="results_header_name">Top List</p></a>
                 
