@@ -15,7 +15,7 @@
 <body>
     <div class="main_page_block">
         <div class="main_page_title">
-            <h1>Shashki</h1>
+            <h1>Peshki</h1>
         </div>
         <div class="main_page_block_login_register">
             <form action="register.php" method="post">
